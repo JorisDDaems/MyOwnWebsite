@@ -69,7 +69,7 @@ nav{
 
 .img_description{
     position: absolute;
-    padding: 250px 0px 20px 15px;
+    padding: 400px 0px 20px 100px;
     color: #fff;
     visibility: hidden;
     opacity: 0;
@@ -194,6 +194,9 @@ nav{
     }
     .hero img{
         height: 500px;
+    }
+    .img_description{
+        padding: 250px 0px 20px 15px;
     }
     .details{
         grid-row: 2/3;
