@@ -132,55 +132,90 @@ nav{
 
 */
 /* 2e Pagina */
+/*banner below */
 
 .banner{
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     position: relative;
     opacity: 0.9;
 }
-
 .banner img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: top;
 }
-
 .author{
     position: absolute;
-    top: 80%;
-    left: 15%;
+    top: 70%;
+    left: 50%;
     transform: translate(-50%, -70%);
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5) ;
-    text-align: left;
-    line-height: 2;
+    text-align: center;
+    line-height: 1.5;
+}
+.author h1{
+    font-size: 42px;
+}
+.author h3{
+    padding: 10px 0px;
+    font-size: 32px;
 }
 
-.profile{
-    overflow: hidden;
-    height: 600px;
-    align-self: right;
-    justify-self: right;
-    display: flex;
-}
+/* story part below */
 
-.story{
+
+.story, .my-work{
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: auto;
     padding: 80px 0px;
-}
-
-.story-description p, .work-description p{
     color: black;
-    width: 50%;
+}
 
+.story-description , .work-description {
+    width: 50%;
+}
+.story-description p{
+    font-size:20px;
+    color:black;
+}
+
+.work-description p{
+    padding: 20px 0px;
+    font-size: 20px;
+    color: black;
+}
+.story-description h3, .work-description h3{
+    font-size: 36px;
+    padding-bottom: 30px;
+    color: black;
 }
 
 
 
+.profile img{
+    width: 50%;
+    height: auto;
+}
+.profile{
+    display: inline;
+    text-align: center;
+}
+
+.work-gallery{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+}
+.work-gallery img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* responsiveness */
 
 @media(max-width: 1024px){
     .page{
