@@ -202,12 +202,12 @@ nav{
 }
 .profile{
     display: inline;
-    text-align: center;
+    text-align: right;
 }
 
 .work-gallery{
     display: grid;
-    grid-template-columns: repeat(3,300px);
+    grid-template-columns: repeat(3, 250px);
 }
 .work-gallery img{
     width: 100%;
