@@ -175,7 +175,12 @@ nav{
     color: black;
 }
 
-.story-description , .work-description {
+.story-description {
+    width: 80%;
+    line-height:1.5;
+}
+
+.work-description {
     width: 50%;
 }
 .story-description p{
@@ -187,12 +192,14 @@ nav{
     padding: 20px 0px;
     font-size: 20px;
     color: black;
+    line-height: 1.5;
 }
 .story-description h3, .work-description h3{
     font-size: 36px;
     padding-bottom: 30px;
     color: black;
 }
+
 
 
 
@@ -246,14 +253,27 @@ nav{
     }
     .story, .my-work{
         flex-direction: column;
+        text-align: center;
     }
     .story-description, work-description{
         width: 100%;
+        text-align: center;
     }
     .profile{
         padding-top: 30px;
         text-align: center;
     }   
+    .story-description{
+        
+    }
+    .story-gallery {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .work-gallery img{
+        width: 70%;
+        height: auto;
+    }
 }
 
 @media(max-width:768px){
