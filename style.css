@@ -176,7 +176,7 @@ nav{
 }
 
 .story-description {
-    width: 80%;
+    width: 100%;
     line-height:1.5;
 }
 
@@ -267,12 +267,12 @@ nav{
         width: 70%;
         text-align: center; 
         margin: 0;
-        padding: 0px 0 20px 300px;
+        padding: 0px 0 20px 250px;
     }
     .work-gallery {
         padding-top: 30px;
         text-align: center;
-        padding: 0px 0 20px 100px;
+        padding: 0px 0 20px 75px;
     }
     .work-gallery img{
         width: 70%;
