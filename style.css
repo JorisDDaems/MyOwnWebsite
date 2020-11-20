@@ -263,17 +263,21 @@ nav{
         padding-top: 30px;
         text-align: center;
     }   
-    .story-description{
-        
+    .work-description{
+        width: 70%;
+        text-align: center; 
+        margin: 0;
+        padding: 0px 0 20px 300px;
     }
-    .story-gallery {
+    .work-gallery {
         padding-top: 30px;
         text-align: center;
+        padding: 0px 0 20px 100px;
     }
     .work-gallery img{
         width: 70%;
         height: auto;
-    }
+        }
 }
 
 @media(max-width:768px){
@@ -289,4 +293,5 @@ nav{
     .details h2{
         font-size: 28px;
     }
+    
 }
