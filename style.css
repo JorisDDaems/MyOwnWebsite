@@ -310,13 +310,15 @@ nav{
     padding: 0px 0 20px 20px;
 }
 .work-gallery {
-    padding-top: 30px;
     text-align: center;
-    padding: 0px 0 20px 75px;
+    padding: 30px 0 20px 25px;
+    width: 50%;
+    height: auto;
 }
 .work-gallery img{
-    width: 70%;
-    height: auto;
+    height: 20%;
+    width: auto;
     }
+
     
 }
