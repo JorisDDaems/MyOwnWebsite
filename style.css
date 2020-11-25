@@ -238,12 +238,7 @@ nav{
         height: 500px;
     }
     .img_description{
-    padding: 250px 0px 20px 15px;
-    position: absolute;
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.2, visibility .2s;
+        padding: 250px 0px 20px 15px;
     }
     .details{
         grid-row: 2/3;
@@ -298,5 +293,14 @@ nav{
     .details h2{
         font-size: 28px;
     }
+
+    .hero{
+        position: relative;
+    }
+
+.img_description{
+    position: absolute;
+    padding: 400px 0px 20px 100px;
+}
     
 }
